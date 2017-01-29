@@ -1,6 +1,17 @@
 -module(bank).
 -export([add/2, withdraw/2, balance/1, new/0, test/0, bank/1]).
 
+% bank: A single-account bank
+% * * * * * * * * * * * * * * * * * * * * 
+% First Erlang programming task in PARADIS
+% run new() to create a new bank process and
+% use the verbs to manipulate the bank.
+% 
+% See test/0 for an example.
+%
+% Author: Billy (github.com/chrysophylax)
+% Date: 2017-01-29
+
 test() ->
     Joe = new(),
     ok = add(Joe, 10),
