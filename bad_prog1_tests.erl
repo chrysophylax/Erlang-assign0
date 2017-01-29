@@ -2,6 +2,12 @@
 -export([run/0]).
 -import(bad_prog1, [factorial/1, double/1, area/1, temperature_convert/1, perimeter/1]).
 
+% bad_prog1_tests: Unit testing for bad_prog1
+% * * * * * * * * * * * * * * * * * * * *  
+% See run/0 for an example.
+%
+% Author: Billy (github.com/chrysophylax)
+% Date: 2017-01-29
 
 run() ->
     test_perimeter(),
